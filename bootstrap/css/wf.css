@@ -2,11 +2,22 @@ td.wf-table-heading {
 	font-weight: bold;
 }
 
-tr.wf-table-grouping td {
+thead {
 	color: white;	
 	background-color: #666;
 	font-size: 75%;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
+}
+
+thead.th{
+	color: #666;	
+}
+
+tr.wf-table-grouping td {
+	color: black;	
+	background-color: #F5F5F5;
+	font-size: 75%;
+	letter-spacing: 0.5px;
 }
 
 tr td {
