@@ -1,0 +1,21 @@
+td.wf-table-heading {
+	font-weight: bold;
+}
+
+tr.wf-table-grouping td {
+	color: white;	
+	background-color: #666;
+	font-size: 75%;
+	letter-spacing: 1px;
+}
+
+tr td {
+	/*border-right: 1px solid white;*/
+	font-size: 90%;
+}
+
+
+
+div.col-md-1, div.col-md-2 {
+	background-color: pink;
+}
