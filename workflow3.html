@@ -64,8 +64,74 @@
 					  </ul>
 					</div>				
 					
-					<h4>asdf</h4>
-															
+					<div class="constrain-by-desk-section" data-toggle="buttons">
+<!--						<div class="btn-group btn-default" data-toggle="buttons">
+						  <label class="btn btn-default">
+						    <input type="radio" name="options" id="option1"> Option 1
+						  </label>
+						  <label class="btn btn-default">
+						    <input type="radio" name="options" id="option2"> Option 2
+						  </label>
+						  <label class="btn btn-default">
+						    <input type="radio" name="options" id="option3"> Option 3
+						  </label>
+						</div>-->
+					
+						<!--<div class="btn-group btn-group-sm">
+						  <button type="button" class="btn btn-default">Desk</button>
+						  <button type="button" class="btn btn-default">Section</button>
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						    <span class="caret"></span>
+						    <span class="sr-only">Toggle Dropdown</span>
+						  </button>
+						  <ul class="dropdown-menu" role="menu">
+						    <li><a href="#">Action</a></li>
+						    <li><a href="#">Another action</a></li>
+						    <li><a href="#">Something else here</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">Separated link</a></li>
+						  </ul>
+						</div>-->
+						
+						<div class="btn-group btn-group-sm" data-toggle="buttons">
+						  <button type="button" class="btn btn-primary">Desk</button>
+						  <button type="button" class="btn btn-default">Section</button>
+						</div>
+						
+						<div class="btn-group btn-group-sm">
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						    UK News <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" role="menu">
+						    <li><a href="#">Action</a></li>
+						    <li><a href="#">Another action</a></li>
+						    <li><a href="#">Something else here</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">Separated link</a></li>
+						  </ul>
+						</div>
+					</div>
+					
+					
+					<div class="constrain-by-date">
+						<h4>Desk</h4>
+						<div class="btn-group btn-group-sm" data-toggle="buttons">
+						  <button type="button" class="btn btn-primary">All</button>
+						  <button type="button" class="btn btn-default">Today</button>
+						  <button type="button" class="btn btn-default">Tomorrow</button>
+						  <button type="button" class="btn btn-default">This weekend</button>
+						  <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-calendar"></span>
+						  	<select>
+						  	  <option value="volvo">23 May 2014</option>
+						  	  <option value="saab">24 May 2014</option>
+						  	  <option value="opel">25 May 2014</option>
+						  	  <option value="audi">26 May 2014</option>
+						  	</select>
+						  </button>
+						</div>
+					</div>
+					
+																			
 				</div>
 			</div>
 		
@@ -80,7 +146,7 @@
 			  		
 			  	<h5 class="query">Content type</h5>
 			  		
-			  		<div class="btn-group btn-group-xs">
+			  		<div class="btn-group btn-group-xs" data-toggle="buttons">
 			  				<button type="button" class="btn btn-default active">All</button>
 			  		        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-file"></span></button>
 			  		        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th-list"></span></button>
@@ -118,6 +184,7 @@
 			  
 				<table class="table">
 			  			  		  <caption>Active stuff</caption>
+			  			  		 	
 			  			  		 	<thead>
 			  			  		      <tr>
 			  			  		      	<th></th>
@@ -129,6 +196,7 @@
 			  			  		      	<th>Legal</th>
 			  			  		      	<th>In use by</th>
 			  			  		      	<th>Assigned to</th>
+			  			  		      	<th>Due by</th>
 			  			  		      	<th>Embargoed?</th>
 			  			  		      	<th>Notes</th>
 			  			  		      </tr>
@@ -137,7 +205,7 @@
 			  			  		  	<tbody>
 			  			  		  	      
 			  			  		      <tr class="wf-table-grouping">
-			  			  		      	<td class="wf-table-heading" colspan="11">WRITING</td>      
+			  			  		      	<td class="wf-table-heading" colspan="12">WRITING</td>      
 			  			  		      </tr>
 			  			  		  	        
 			  			  		      <tr>
@@ -148,22 +216,24 @@
 			  			  		        <td colspan="2"><strong>Gmail overhaul being tested</strong>
 			  			  		          <br /><span style="font-size: 90%; color: #666; line-height: 1em;">Gmail's next overhaul is radical and will make it look more like Google Plus</span></td>
 			  			  		        <td>n/a</td>
+			  			  		        <td></td>
 			  			  		        <td>Samuel Gibbs</td>
-			  			  		        <td>Samuel Gibbs</td>
+			  			  		        <td></td>
 			  			  		        <td></td>
 			  			  		        <td></td>
 			  			  		      </tr>
 			  			  		        
 			  			  		      <tr>
 			  			  		        <td><span class="glyphicon glyphicon glyphicon-file"></span></td>
-			  			  		        <td></td>
-			  			  		        <td></td>
+			  			  		        <td><span class="glyphicon glyphicon-exclamation-sign"></span></td>
+			  			  		        <td><span class="glyphicon glyphicon-comment"></span></td>
 			  			  		        <td><span class="glyphicon glyphicon-picture"></span></td>
 			  			  		        <td colspan="2"><strong>Gmail overhaul being tested</strong>
 			  			  		          <br /><span style="font-size: 90%; color: #666; line-height: 1em;">Gmail's next overhaul is radical and will make it look more like Google Plus</span></td>
 			  			  		        <td>n/a</td>
 			  			  		        <td></td>
 			  			  		        <td>Samuel Gibbs</td>
+			  			  		        <td></td>
 			  			  		        <td></td>
 			  			  		        <td></td>
 			  			  		      </tr>
@@ -178,6 +248,7 @@
 			  			  		        <td>n/a</td>
 			  			  		        <td></td>
 			  			  		        <td>Samuel Gibbs</td>
+			  			  		        <td></td>
 			  			  		        <td></td>
 			  			  		        <td></td>
 			  			  		      </tr>
@@ -194,6 +265,7 @@
 			  			  		        <td>Samuel Gibbs</td>
 			  			  		        <td></td>
 			  			  		        <td></td>
+			  			  		        <td></td>
 			  			  		      </tr>
 			  			  		  	        
 			  			  		      <tr>
@@ -208,6 +280,7 @@
 			  			  		  	     <td>Shiona Tregaskis</td>
 			  			  		  	     <td>Today, 19:00</td>
 			  			  		  	     <td></td>
+			  			  		  	     <td></td>
 			  			  		      </tr>
 			  			  		  	         
 			  			  		  	  <tr>
@@ -221,19 +294,13 @@
 			  			  		        <td>Shiona Tregaskis</td>
 			  			  		        <td>Shiona Tregaskis</td>
 			  			  		        <td></td>
+			  			  		        <td></td>
 			  			  		        <td>Lorem ipsum dolor sit amet.</td>
 			  			  		      </tr>
 			  			  		  	        
-			  			  						<tr class="wf-table-grouping">
-			  			  							<td class="wf-table-heading" colspan="4">LIVE</td>      
-			  			  							<td></td> 
-			  			  							<td></td> 
-			  			  							<td></td>		
-			  			  							<td></td>
-			  			  							<td></td>
-			  			  							<td></td>
-			  			  							<td></td>
-			  			  						</tr>
+  			  						<tr class="wf-table-grouping">
+  			  							<td class="wf-table-heading" colspan="12">LIVE</td>
+  			  						</tr>
 			  			  		  	        
 			  			  		      <tr>
 			  			  		        <td><span class="glyphicon glyphicon-camera"></span></td>
@@ -245,6 +312,7 @@
 			  			  		        <td>n/a</td>
 			  			  		        <td>Shiona Tregaskis</td>
 			  			  		        <td>Shiona Tregaskis</td>
+			  			  		        <td></td>
 			  			  		        <td></td>
 			  			  		        <td>Lorem ipsum dolor sit amet.</td>
 			  			  		      </tr>
@@ -260,6 +328,7 @@
 			  			  		        <td>Shiona Tregaskis</td>
 			  			  		        <td>Shiona Tregaskis</td>
 			  			  		        <td></td>
+			  			  		        <td></td>
 			  			  		        <td>Lorem ipsum dolor aasdfasfasfdasdfasdfasdfasdfasdfasf amet.</td>
 			  			  		      </tr>
 			  			  		  	</tbody>
@@ -273,6 +342,6 @@
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

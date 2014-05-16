@@ -66,7 +66,7 @@ body {
   	top: 121px;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    /*z-index: 1000;*/
     display: block;
     padding: 20px;
 /*    margin: -20px;*/
@@ -113,12 +113,21 @@ h5.query {
 .header-bar {
 	height: 40px;
 	padding: 3px;
-	background-color: #666;
+	background-color: #adadad;
 }
 
 .header-bar h4 {
 	display: inline-block;
 	margin-top: 0px;
+}
+
+.constrain-by-date, .constrain-by-desk-section  {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.constrain-by-date h4 {
+	font-size: 1.6rem;
 }
 
 
