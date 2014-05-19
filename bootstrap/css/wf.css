@@ -190,12 +190,12 @@ h5.query {
     text-align: left;
     text-overflow: ellipsis;
     white-space: nowrap;
-    background-color: yellow;
+    /*background-color: yellow;*/
     font-size: 90%;
   }
   .dl-horizontal dd {
     margin-left: 20px;
-    background-color: pink;
+    /*background-color: pink;*/
     font-size: 90%;
   	margin-right: 10px;
   }
